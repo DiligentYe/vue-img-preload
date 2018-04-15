@@ -1,14 +1,13 @@
 {
-  "name": "vue-image-loader",
+  "name": "vue-img-preload",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "vue plugin for image preload",
+  "main": "src/index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
     "test": "cross-env NODE_ENV=test webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -23,5 +22,10 @@
     "webpack-cli": "^2.0.14",
     "webpack-dev-server": "^3.1.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  
+  "keywords": [
+    "vue",
+    "preload"
+  ]
 }

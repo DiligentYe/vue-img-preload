@@ -7,7 +7,7 @@
 ##### 浏览器中
 1. 下载vue-img-preload插件
 ```
-npm install vue-img-preload
+git clone https://github.com/DiligentYe/vue-img-preload.git
 ```
 2. 在页面中引入dist目录下的**preload.min.js**文件**（确保此时页面已经引入vue.js）**，如
 ```
